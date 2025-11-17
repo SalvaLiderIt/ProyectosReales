@@ -32,6 +32,9 @@ report 50100 AbonoVenta
             column(Bill_to_Address; "Bill-to Address") { }
             column(Bill_to_Post_Code; "Bill-to Post Code") { }
             column(Bill_to_City; "Bill-to City") { }
+            column(Bill_to_County; "Bill-to County") { }
+            column(No_; "No.") { }
+            column(Posting_Date; "Posting Date") { }//  todo mostrar la fecha diferente
 
 
 
@@ -59,6 +62,10 @@ report 50100 AbonoVenta
     labels
     {
         CIFlbl = 'C.I.F.'; //  todo falta por ver como poner el "-" entre la B y el numero
+        FacturaNolbl = 'Factura Nº:';
+        FechaFacturalbl = 'Fecha Factura:';
+        NIFlbl = 'N.I.F.:';
+        FechaEntregalbl = 'Fecha de Entrega:';
     }
 
     trigger OnPreReport()

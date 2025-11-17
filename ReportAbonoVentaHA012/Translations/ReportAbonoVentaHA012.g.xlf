@@ -8,6 +8,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel CIFlbl</note>
         </trans-unit>
+        <trans-unit id="Report 2981941575 - ReportLabel 4262511015" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Factura Nº:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel FacturaNolbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2981941575 - ReportLabel 3641292303" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fecha de Entrega:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel FechaEntregalbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2981941575 - ReportLabel 3666845783" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fecha Factura:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel FechaFacturalbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2981941575 - ReportLabel 2834676957" size-unit="char" translate="yes" xml:space="preserve">
+          <source>N.I.F.:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel NIFlbl</note>
+        </trans-unit>
         <trans-unit id="PermissionSet 1395241364 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
           <source>M25013ExtPermissions</source>
           <note from="Developer" annotates="general" priority="2"></note>

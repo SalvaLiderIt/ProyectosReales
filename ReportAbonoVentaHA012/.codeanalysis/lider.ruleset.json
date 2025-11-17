@@ -1,0 +1,11 @@
+{
+  "name": "Lider Ruleset",
+  "description": "Custom ruleset for Lider project",
+  "rules": [
+    {
+      "id": "AA0137",
+      "action": "Error",
+      "justification": "The Standard is only giving a warning, it is better to avoid droping trash in the code."
+    }
+  ]
+} 

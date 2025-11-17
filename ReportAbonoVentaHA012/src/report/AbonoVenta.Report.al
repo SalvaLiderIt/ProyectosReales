@@ -35,6 +35,8 @@ report 50100 AbonoVenta
             column(Bill_to_County; "Bill-to County") { }
             column(No_; "No.") { }
             column(Posting_Date; "Posting Date") { }//  todo mostrar la fecha diferente
+            column(NIF; "VAT Registration No.") { }
+            column(Due_Date; "Due Date") { }
 
 
 
@@ -62,10 +64,15 @@ report 50100 AbonoVenta
     labels
     {
         CIFlbl = 'C.I.F.'; //  todo falta por ver como poner el "-" entre la B y el numero
-        FacturaNolbl = 'Factura Nº:';
-        FechaFacturalbl = 'Fecha Factura:';
+        InvoiceNolbl = 'Invoice Nº:';
+        InvoiceDatelbl = 'Invoice Date:';
         NIFlbl = 'N.I.F.:';
-        FechaEntregalbl = 'Fecha de Entrega:';
+        DeliveryDatelbl = 'Delivery Date:';
+        Conceptlbl = 'Concept';
+        Amount = 'Amount';
+        InformationClause = 'Information Clause';
+        LawText = 'Con el siguiente texto fijo: “De conformidad con el artículo 13 de la sección 2 del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016 y la Ley Orgánica 3/2018, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos, le informamos que el responsable del tratamiento es CLÍNICA LA ARRUZAFA, S.L., que dicho tratamiento se lleva a cabo para la gestión contable, fiscal y administrativa y para el envio de comunicaciones comerciales sobre productos y servicios de la Clínica que ser de su interés. La base legal que permite legitimar este tratamiento el cumplimiento de una obligación legal. Se comunicarán datos a terceros para poder llevar a cabo las finalidades objeto de este contrato. Puede usted acceder, rectificar y suprimir sus datos, así como otros derechos, dirigiéndose por escrito a nuestro Delegado de Protección de Datos m.montaldo@compliancecorporativo.es. Puede usted obtener información ampliada sobre protección de datos solicitándola a nuestro Delegado de Protección de Datos m.montaldo@compliancecorporativo.es”.';
+        ToTalInvoice = 'Total Invoice EUR:';
     }
 
     trigger OnPreReport()

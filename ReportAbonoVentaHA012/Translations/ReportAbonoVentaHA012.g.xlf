@@ -3,30 +3,55 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="ReportAbonoVentaHA012">
     <body>
       <group id="body">
+        <trans-unit id="Report 2981941575 - ReportLabel 636392376" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel Amount</note>
+        </trans-unit>
         <trans-unit id="Report 2981941575 - ReportLabel 3174427762" size-unit="char" translate="yes" xml:space="preserve">
           <source>C.I.F.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel CIFlbl</note>
         </trans-unit>
-        <trans-unit id="Report 2981941575 - ReportLabel 4262511015" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Factura Nº:</source>
+        <trans-unit id="Report 2981941575 - ReportLabel 3897595702" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Concept</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel FacturaNolbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel Conceptlbl</note>
         </trans-unit>
-        <trans-unit id="Report 2981941575 - ReportLabel 3641292303" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Fecha de Entrega:</source>
+        <trans-unit id="Report 2981941575 - ReportLabel 3435285990" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Date:</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel FechaEntregalbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel DeliveryDatelbl</note>
         </trans-unit>
-        <trans-unit id="Report 2981941575 - ReportLabel 3666845783" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Fecha Factura:</source>
+        <trans-unit id="Report 2981941575 - ReportLabel 352673507" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Information Clause</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel FechaFacturalbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel InformationClause</note>
+        </trans-unit>
+        <trans-unit id="Report 2981941575 - ReportLabel 1265005185" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Date:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel InvoiceDatelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2981941575 - ReportLabel 3939222902" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Nº:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel InvoiceNolbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2981941575 - ReportLabel 2437342361" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Con el siguiente texto fijo: “De conformidad con el artículo 13 de la sección 2 del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016 y la Ley Orgánica 3/2018, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos, le informamos que el responsable del tratamiento es CLÍNICA LA ARRUZAFA, S.L., que dicho tratamiento se lleva a cabo para la gestión contable, fiscal y administrativa y para el envio de comunicaciones comerciales sobre productos y servicios de la Clínica que ser de su interés. La base legal que permite legitimar este tratamiento el cumplimiento de una obligación legal. Se comunicarán datos a terceros para poder llevar a cabo las finalidades objeto de este contrato. Puede usted acceder, rectificar y suprimir sus datos, así como otros derechos, dirigiéndose por escrito a nuestro Delegado de Protección de Datos m.montaldo@compliancecorporativo.es. Puede usted obtener información ampliada sobre protección de datos solicitándola a nuestro Delegado de Protección de Datos m.montaldo@compliancecorporativo.es”.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel LawText</note>
         </trans-unit>
         <trans-unit id="Report 2981941575 - ReportLabel 2834676957" size-unit="char" translate="yes" xml:space="preserve">
           <source>N.I.F.:</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel NIFlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2981941575 - ReportLabel 3345757309" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Invoice EUR:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AbonoVenta - ReportLabel ToTalInvoice</note>
         </trans-unit>
         <trans-unit id="PermissionSet 1395241364 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
           <source>M25013ExtPermissions</source>

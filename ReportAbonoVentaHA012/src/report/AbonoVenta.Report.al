@@ -1,4 +1,4 @@
-report 50100 AbonoVenta
+report 50100 "AbonoVenta_LDR"
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
@@ -6,14 +6,8 @@ report 50100 AbonoVenta
     RDLCLayout = 'src/report/AbonoVenta.rdl';
 
     Permissions = tabledata "Company Information" = r,
-                  tabledata Customer = r,
                   tabledata "Sales Cr.Memo Header" = r,
-                  tabledata "Sales Cr.Memo Line" = r,
-                  tabledata "VAT Amount Line" = r,
-                  tabledata "VAT Product Posting Group" = r,
-                  tabledata "Cust. Ledger Entry" = r,
-                  tabledata "Payment Terms" = r,
-                  tabledata "Payment Method" = r;
+                  tabledata "Sales Cr.Memo Line" = r;
 
     dataset
     {
@@ -44,21 +38,21 @@ report 50100 AbonoVenta
             dataitem(SalesLine; "Sales Cr.Memo Line")
             {
                 // BODY ------------------------------------------------------------------------------------------------------------------------------------------
-                DataItemLink = "Document No." = field("No.");
+                DataItemLink = "Document No." = field("No.");//filtro para que solo salgan las lineas del albaran actual
 
                 //column(Picture; CompanyInformation.Picture) { }
+                column(Description; Description) { }
+                column(Line_Amount; "Line Amount")
+                {
 
+                }
+                column(TotalAmount; GetLineAmountExclVAT())
+                {
+                }
 
-            }
-
-            dataitem(CustLedgerEntry; "Cust. Ledger Entry")
-            {
-                DataItemLink = "Document No." = field("No.");
-                //column(DueDate; "Due Date") { }
             }
         }
     }
-
 
 
     labels
